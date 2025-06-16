@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildings>
+    <building id="house" nameKey="buildingHouse" unlockedBy="settlement">
+        <cost wood="10" pebble="5" flint="1"/>
+        <provides/> <!-- Empty provides as per current data -->
+    </building>
+
+     <building id="farm" nameKey="buildingFarm" requires="worker" unlockedBy="agriculture">
+        <cost wood="3"/>
+        <produces resource="wheat" interval="wheat"/>
+     </building>
+
+     <building id="mine" nameKey="buildingMine" requires="worker" unlockedBy="mining">
+         <cost pebble="5" wood="2"/>
+         <produces resource="coal" interval="coal"/>
+     </building>
+
+    <building id="quarry" nameKey="buildingQuarry" requires="worker" unlockedBy="masonry">
+         <cost pebble="15" wood="5" flint="3"/>
+         <produces interval="quarry">
+            <resource>iron</resource>
+            <resource>copper</resource>
+            <resource>nickel</resource>
+            <resource>zinc</resource>
+         </produces>
+     </building>
+
+    <building id="warehouse" nameKey="buildingWarehouse" unlockedBy="storage">
+        <cost wood="15" pebble="10" iron="2"/>
+        <provides capacityBonus="50"/>
+    </building>
+
+    <building id="granary" nameKey="buildingGranary" requires="worker" unlockedBy="pottery">
+        <cost wood="20" pebble="10" wheat="10"/>
+        <provides capacityBonusWheat="100"/>
+    </building>
+
+    <building id="market" nameKey="buildingMarket" requires="worker" unlockedBy="currency">
+         <cost wood="25" pebble="15" copper="5"/>
+         <provides/> <!-- Empty provides -->
+    </building>
+
+    <building id="pasture" nameKey="buildingPasture" requires="worker" unlockedBy="animalHusbandry">
+         <cost wood="10" pebble="5"/>
+         <provides/> <!-- Empty provides -->
+     </building>
+
+</buildings>
