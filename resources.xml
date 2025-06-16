@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <resource id="wood" nameKey="wood" baseCapacity="50"/>
+    <resource id="pebble" nameKey="pebble" baseCapacity="50"/>
+    <resource id="flint" nameKey="flint" baseCapacity="30"/>
+    <resource id="wheat" nameKey="wheat" baseCapacity="20"/>
+    <resource id="coal" nameKey="coal" baseCapacity="20"/>
+    <resource id="iron" nameKey="iron" baseCapacity="10"/>
+    <resource id="copper" nameKey="copper" baseCapacity="10"/>
+    <resource id="nickel" nameKey="nickel" baseCapacity="10"/>
+    <resource id="zinc" nameKey="zinc" baseCapacity="10"/>
+    <resource id="milk" nameKey="milk" baseCapacity="20"/>
+    <resource id="wool" nameKey="wool" baseCapacity="20"/>
+</resources>
